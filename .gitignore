@@ -1,0 +1,23 @@
+# Ambientes virtuais e caches
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Artefatos de empacotamento
+dist/
+build/
+*.egg-info/
+
+# Arquivos de editor e sistema
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Saídas locais
+.coverage
+htmlcov/
